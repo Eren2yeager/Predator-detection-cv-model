@@ -1,0 +1,16 @@
+# Runtime dependencies. Install torch/torchvision FIRST from the CUDA wheel index
+# (see run.ps1 / README) so the GPU build is used instead of the CPU default.
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+pydantic-settings
+pillow
+numpy
+opencv-python-headless
+rfdetr==1.11.1
+supervision
+
+# Development / tests
+pytest
+httpx
