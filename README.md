@@ -14,7 +14,9 @@ responsible for capturing frames and acting on the results.
 
 ## Setup
 
-Requires the Python 3.12 install already on this machine. From PowerShell in the repo root:
+Install Git LFS and run `git lfs install` before cloning so the model weights are
+downloaded. For an existing clone, run `git lfs pull`. The service also requires the
+Python 3.12 install already on this machine. From PowerShell in the repo root:
 
 ```powershell
 .\run.ps1
